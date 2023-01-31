@@ -15,6 +15,9 @@ Company.destroy_all
 # 1b. check out the model file
 
 # 2. insert new rows in companies table
+# This is what we're doing in SQL SELECT COUNT (*) FROM companies;
+
+puts "there are #{companies.all.count}"
 
 # 3. query companies table to find all row with California company
 
